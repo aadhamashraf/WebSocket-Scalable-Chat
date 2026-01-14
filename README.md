@@ -54,7 +54,7 @@ The application uses WebSocket for real-time bidirectional communication. Redis 
 
 ```bash
 git clone https://github.com/aadhamashraf WebSocket-Scalable-Chat.git
-cd websocket-chat
+cd websocket-scalable-chat
 ```
 
 ### 2. Set up the backend
@@ -142,7 +142,7 @@ Configure a load balancer (like nginx) to distribute traffic between instances. 
 ## Project Structure
 
 ```
-Project #5/
+websocket-scalable-chat/
 ├── backend/
 │   ├── main.py                 # FastAPI application entry point
 │   ├── models.py               # Pydantic models
